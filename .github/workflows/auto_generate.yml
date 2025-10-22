@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  encode:
+  autoGenerate:
     runs-on: ubuntu-latest
 
     permissions:
