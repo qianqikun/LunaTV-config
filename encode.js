@@ -1,5 +1,6 @@
 const fs = require('fs');
-const bs58 = require('bs58');
+const bs58 = require('bs58').default;
+
 
 // 定义要处理的文件列表
 const files = [
