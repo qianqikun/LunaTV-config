@@ -92,17 +92,17 @@ console.log(`重复 API 数量: ${duplicateAPIs}`);
   md += `## 最近 ${MAX_DAYS} 次 API 健康统计\n\n`;
   md += "| 状态 | API 名称 | API 地址 | 成功次数 | 失败次数 | 可用率 | 连续失败天数 |\n";
   md += "|------|----------|----------|---------:|---------:|-------:|-------------:|\n";
-
+  const statusMap = {};
   for (const { name, api } of apiEntries) {
     const s = stats[api];
     const total = s.ok + s.fail;
     const rate = total > 0 ? ((s.ok / total) * 100).toFixed(1) + "%" : "-";
     md += `| ${s.status} | ${s.name} | ${api} | ${s.ok} | ${s.fail} | ${rate} | ${s.fail_streak} |\n`;
+    statusMap[name] = s.status === '✅' ? 'healthy' : 'failed';
   }
 
   md += `\n## 详细历史数据 (JSON)\n`;
   md += "```json\n" + JSON.stringify(history, null, 2) + "\n```\n";
-
   fs.writeFileSync(reportPath, md, 'utf-8');
-  fs.writeFileSync(statusPath, JSON.stringify(apiEntries, null, 2));
+  fs.writeFileSync(statusPath, JSON.stringify(statusMap, null, 2));
 })();
