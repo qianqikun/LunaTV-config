@@ -50,7 +50,7 @@ let isTokenVisible = false;
 
 // GitHub配置
 const GITHUB_CONFIG = {
-    owner: 'hafrey1',
+    owner: 'qianqikun',
     repo: 'LunaTV-config',
     path: 'LunaTV-config.json',
     branch: 'main'
