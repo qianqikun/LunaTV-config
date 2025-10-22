@@ -65,6 +65,8 @@ async function handleRequest(request) {
   const configParam = reqUrl.searchParams.get('config')
   const prefixParam = reqUrl.searchParams.get('prefix')
   const encodeParam = reqUrl.searchParams.get('encode')
+  const pathNameParam = reqUrl.searchParams.get('path_name') || 'LunaTV-config'
+
 
   const currentOrigin = reqUrl.origin
   const defaultPrefix = currentOrigin + '/?url='
@@ -127,7 +129,7 @@ async function handleRequest(request) {
 // -------------------- JSON 配置 + API 前缀替换 + Base58 --------------------
 if (configParam === '1') {
   try {
-    const jsonUrl = 'https://raw.githubusercontent.com/qianqikun/LunaTV-config/main/jingjian.json'
+    const jsonUrl = `https://raw.githubusercontent.com/qianqikun/LunaTV-config/main/${pathNameParam}.json`
     const response = await fetch(jsonUrl)
     const data = await response.json()
     const newData = addOrReplacePrefix(data, prefixParam || defaultPrefix)
@@ -153,7 +155,7 @@ if (configParam === '1') {
 // -------------------- JSON 配置（原始，不加前缀） config=0 --------------------
 if (configParam === '0') {
   try {
-    const jsonUrl = 'https://raw.githubusercontent.com/qianqikun/LunaTV-config/main/jingjian.json'
+    const jsonUrl = `https://raw.githubusercontent.com/qianqikun/LunaTV-config/main/${pathNameParam}.json`
     const response = await fetch(jsonUrl)
     const data = await response.json()
 

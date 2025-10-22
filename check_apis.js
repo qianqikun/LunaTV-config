@@ -4,6 +4,7 @@ const axios = require('axios');
 const path = require('path');
 
 const configPath = path.join(__dirname, 'LunaTV-config.json');
+const statusPath = path.join(__dirname, 'status.json');
 const reportPath = path.join(__dirname, 'report.md');
 const MAX_DAYS = 100;
 const WARN_STREAK = 3; // 连续失败天数阈值
@@ -77,6 +78,7 @@ for (const { api } of apiEntries) {
     // 如果 API 重复，加上重复标记
     if (stats[api].duplicate) stats[api].status = "🔁";
   }
+  
 // 统计总 API 数量和重复数量
 const totalAPIs = apiEntries.length;
 const duplicateAPIs = Object.values(apiCountMap).filter(count => count > 1).length;
@@ -102,5 +104,5 @@ console.log(`重复 API 数量: ${duplicateAPIs}`);
   md += "```json\n" + JSON.stringify(history, null, 2) + "\n```\n";
 
   fs.writeFileSync(reportPath, md, 'utf-8');
-
+  fs.writeFileSync(statusPath, JSON.stringify(apiEntries, null, 2));
 })();

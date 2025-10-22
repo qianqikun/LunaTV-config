@@ -5,11 +5,12 @@
   "main": "encode.js",
   "scripts": {
     "encode": "node encode.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "autoGenerate": "node auto_generate.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.12.2",
     "bs58": "^6.0.0"
   }
 }
