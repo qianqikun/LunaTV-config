@@ -24,10 +24,10 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Run encoding script
+      - name: Run auto generate script
         run: npm run autoGenerate
 
-      - name: Commit and push encoded files
+      - name: Commit and push new files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
