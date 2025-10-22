@@ -11,7 +11,7 @@ https://qianqikun.github.io/LunaTV-config
 👉 Base58编码订阅链接[精简版🎬源链接](https://raw.githubusercontent.com/qianqikun/LunaTV-config/refs/heads/main/jingjian.txt)    （推荐使用自己部署的代理）精简版禁18源
 
 ```bash
-https://my-tv-config.qianqikun.workers.dev?config=0&encode=base58&path_name=jingjian
+https://my-tv-config.qianqikun.workers.dev?config=0&encode=base58&path_name=jin18
 ```
 ```bash
 https://raw.githubusercontent.com/qianqikun/LunaTV-config/refs/heads/main/jin18.txt
