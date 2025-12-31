@@ -146,11 +146,11 @@ https://api.example.workers.dev/?config=1&encode=base58
   
 # API 健康报告（每日自动检测API状态）
 
-## API 状态（最近更新：2025-12-31 09:18 CST）
+## API 状态（最近更新：2025-12-31 11:23 CST）
 
 - 总 API 数量：78
-- 成功 API 数量：67
-- 失败 API 数量：11
+- 成功 API 数量：69
+- 失败 API 数量：9
 - 平均可用率：88.4%
 - 完美可用率（100%）：58 个
 - 高可用率（80%-99%）：11 个
@@ -227,11 +227,11 @@ https://api.example.workers.dev/?config=1&encode=base58
 | ✅ | 🎬金鹰点播 | https://jinyingzy.com/api.php/provide/vod | 96 | 4 | 96.0% | 0 |
 | ✅ | 🔞91麻豆 | https://91md.me/api.php/provide/vod | 96 | 4 | 96.0% | 0 |
 | ✅ | 🎬金鹰资源 | https://jyzyapi.com/provide/vod/from/jinyingyun/at/json | 94 | 6 | 94.0% | 0 |
-| ❌ | 🔞黄色仓库 | https://hsckzy.xyz/api.php/provide/vod | 93 | 7 | 93.0% | 1 |
+| ✅ | 🔞黄色仓库 | https://hsckzy.xyz/api.php/provide/vod | 93 | 7 | 93.0% | 0 |
 | ✅ | 🎬360资源 | https://360zy.com/api.php/provide/vod | 89 | 11 | 89.0% | 0 |
-| 🚨 | 🔞AIvin | http://lbapiby.com/api.php/provide/vod | 89 | 11 | 89.0% | 11 |
-| 🚨 | 🎬虎牙资源 | https://www.huyaapi.com/api.php/provide/vod/at/json | 83 | 17 | 83.0% | 17 |
-| ✅ | 🔞老色逼 | https://apilsbzy1.com/api.php/provide/vod | 58 | 42 | 58.0% | 0 |
+| ✅ | 🔞AIvin | http://lbapiby.com/api.php/provide/vod | 89 | 11 | 89.0% | 0 |
+| 🚨 | 🎬虎牙资源 | https://www.huyaapi.com/api.php/provide/vod/at/json | 82 | 18 | 82.0% | 18 |
+| ✅ | 🔞老色逼 | https://apilsbzy1.com/api.php/provide/vod | 59 | 41 | 59.0% | 0 |
 | 🚨 | 🎬U酷88 | https://jjpz.hafrey.dpdns.org/?url=https://api.ukuapi88.com/api.php/provide/vod | 0 | 100 | 0.0% | 100 |
 | 🚨 | 🎬U酷资源 | https://jjpz.hafrey.dpdns.org/?url=https://api.ukuapi.com/api.php/provide/vod | 0 | 100 | 0.0% | 100 |
 | 🚨 | 🎬如意资源 | https://jjpz.hafrey.dpdns.org/?url=https://cj.rycjapi.com/api.php/provide/vod | 0 | 100 | 0.0% | 100 |
