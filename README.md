@@ -146,11 +146,11 @@ https://api.example.workers.dev/?config=1&encode=base58
   
 # API 健康报告（每日自动检测API状态）
 
-## API 状态（最近更新：2026-03-13 00:00 CST）
+## API 状态（最近更新：2026-03-13 01:03 CST）
 
 - 总 API 数量：78
-- 成功 API 数量：67
-- 失败 API 数量：11
+- 成功 API 数量：69
+- 失败 API 数量：9
 - 平均可用率：87.0%
 - 完美可用率（100%）：43 个
 - 高可用率（80%-99%）：26 个
@@ -214,10 +214,10 @@ https://api.example.workers.dev/?config=1&encode=base58
 | ✅ | 🎬量子资源 | https://cj.lzcaiji.com/api.php/provide/vod | 99 | 1 | 99.0% | 0 |
 | ✅ | 🎬魔都动漫 | https://caiji.moduapi.cc/api.php/provide/vod | 99 | 1 | 99.0% | 0 |
 | ✅ | 🎬魔都资源 | https://www.mdzyapi.com/api.php/provide/vod | 99 | 1 | 99.0% | 0 |
-| ❌ | 🔞AIvin | http://lbapiby.com/api.php/provide/vod | 99 | 1 | 99.0% | 1 |
+| ✅ | 🔞AIvin | http://lbapiby.com/api.php/provide/vod | 99 | 1 | 99.0% | 0 |
 | ✅ | 🔞大奶子 | https://apidanaizi.com/api.php/provide/vod | 99 | 1 | 99.0% | 0 |
 | ✅ | 🔞森林资源 | https://beiyong.slapibf.com/api.php/provide/vod | 99 | 1 | 99.0% | 0 |
-| ❌ | 🔞番号资源 | http://fhapi9.com/api.php/provide/vod | 99 | 1 | 99.0% | 1 |
+| ✅ | 🔞番号资源 | http://fhapi9.com/api.php/provide/vod | 99 | 1 | 99.0% | 0 |
 | ✅ | 🔞白嫖资源 | https://www.kxgav.com/api/json.php | 99 | 1 | 99.0% | 0 |
 | ✅ | 🔞豆豆资源 | https://api.douapi.cc/api.php/provide/vod | 99 | 1 | 99.0% | 0 |
 | ✅ | 🎬飘零资源 | https://p2100.net/api.php/provide/vod | 98 | 2 | 98.0% | 0 |
