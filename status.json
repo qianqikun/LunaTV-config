@@ -1,15 +1,15 @@
 {
   "🎬爱奇艺": "healthy",
-  "🎬豆瓣资源": "failed",
+  "🎬豆瓣资源": "healthy",
   "🎬天涯影视": "healthy",
   "🎬CK资源": "healthy",
-  "🎬茅台资源": "healthy",
-  "🎬卧龙资源": "failed",
+  "🎬茅台资源": "failed",
+  "🎬卧龙资源": "healthy",
   "🎬iKun资源": "healthy",
   "🎬量子影视": "healthy",
   "🎬电影天堂": "healthy",
   "🎬优质资源": "healthy",
-  "🎬猫眼资源": "healthy",
+  "🎬猫眼资源": "failed",
   "🎬量子资源": "healthy",
   "🎬如意资源": "failed",
   "🎬360资源": "healthy",
@@ -67,7 +67,7 @@
   "🔞美少女": "healthy",
   "🔞奥斯卡": "healthy",
   "🔞奶香资源": "healthy",
-  "🔞森林资源": "healthy",
+  "🔞森林资源": "failed",
   "🔞色猫资源": "healthy",
   "🔞辣椒资源": "healthy",
   "🔞鲨鱼资源": "healthy",
@@ -76,5 +76,5 @@
   "🔞最色资源": "failed",
   "🔞豆豆资源": "healthy",
   "🔞滴滴资源": "healthy",
-  "🔞丝袜资源": "failed"
+  "🔞丝袜资源": "healthy"
 }
