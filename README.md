@@ -146,11 +146,11 @@ https://api.example.workers.dev/?config=1&encode=base58
   
 # API 健康报告（每日自动检测API状态）
 
-## API 状态（最近更新：2026-08-05 21:55 CST）
+## API 状态（最近更新：2026-08-05 23:59 CST）
 
 - 总 API 数量：78
-- 成功 API 数量：65
-- 失败 API 数量：13
+- 成功 API 数量：64
+- 失败 API 数量：14
 - 平均可用率：82.6%
 - 完美可用率（100%）：50 个
 - 高可用率（80%-99%）：15 个
@@ -220,8 +220,8 @@ https://api.example.workers.dev/?config=1&encode=base58
 | ✅ | 🎬豆瓣资源 | https://caiji.dbzy5.com/api.php/provide/vod | 98 | 2 | 98.0% | 0 |
 | ✅ | 🔞AIvin | http://lbapiby.com/api.php/provide/vod | 98 | 2 | 98.0% | 0 |
 | ✅ | 🔞奥斯卡 | https://aosikazy.com/api.php/provide/vod | 98 | 2 | 98.0% | 0 |
-| ✅ | 🔞奶香资源 | https://Naixxzy.com/api.php/provide/vod | 98 | 2 | 98.0% | 0 |
 | ✅ | 🔞乐播资源 | https://lbapi9.com/api.php/provide/vod | 97 | 3 | 97.0% | 0 |
+| ❌ | 🔞奶香资源 | https://Naixxzy.com/api.php/provide/vod | 97 | 3 | 97.0% | 1 |
 | ✅ | 🎬爱奇艺 | https://iqiyizyapi.com/api.php/provide/vod | 96 | 4 | 96.0% | 0 |
 | ✅ | 🔞细胞资源 | https://www.xxibaozyw.com/api.php/provide/vod | 96 | 4 | 96.0% | 0 |
 | ✅ | 🔞鲨鱼资源 | https://shayuapi.com/api.php/provide/vod | 93 | 7 | 93.0% | 0 |
