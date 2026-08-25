@@ -146,11 +146,11 @@ https://api.example.workers.dev/?config=1&encode=base58
   
 # API 健康报告（每日自动检测API状态）
 
-## API 状态（最近更新：2026-08-26 03:26 CST）
+## API 状态（最近更新：2026-08-26 04:21 CST）
 
 - 总 API 数量：78
-- 成功 API 数量：66
-- 失败 API 数量：12
+- 成功 API 数量：65
+- 失败 API 数量：13
 - 平均可用率：82.0%
 - 完美可用率（100%）：44 个
 - 高可用率（80%-99%）：19 个
@@ -224,7 +224,7 @@ https://api.example.workers.dev/?config=1&encode=base58
 | ✅ | 🔞jkun资源 | https://jkunzyapi.com/api.php/provide/vod | 91 | 9 | 91.0% | 0 |
 | ✅ | 🎬iKun资源 | https://ikunzyapi.com/api.php/provide/vod | 90 | 10 | 90.0% | 0 |
 | ✅ | 🔞奥斯卡 | https://aosikazy.com/api.php/provide/vod | 89 | 11 | 89.0% | 0 |
-| ✅ | 🎬爱奇艺 | https://iqiyizyapi.com/api.php/provide/vod | 82 | 18 | 82.0% | 0 |
+| ❌ | 🎬爱奇艺 | https://iqiyizyapi.com/api.php/provide/vod | 81 | 19 | 81.0% | 1 |
 | ✅ | 🔞黄色仓库 | https://hsckzy.xyz/api.php/provide/vod | 72 | 28 | 72.0% | 0 |
 | ✅ | 🎬魔都动漫 | https://caiji.moduapi.cc/api.php/provide/vod | 50 | 50 | 50.0% | 0 |
 | ✅ | 🎬魔都资源 | https://www.mdzyapi.com/api.php/provide/vod | 48 | 52 | 48.0% | 0 |
