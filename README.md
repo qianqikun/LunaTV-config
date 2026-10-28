@@ -146,12 +146,12 @@ https://api.example.workers.dev/?config=1&encode=base58
   
 # API 健康报告（每日自动检测API状态）
 
-## API 状态（最近更新：2026-10-28 08:54 CST）
+## API 状态（最近更新：2026-10-28 14:32 CST）
 
 - 总 API 数量：78
 - 成功 API 数量：64
 - 失败 API 数量：14
-- 平均可用率：80.8%
+- 平均可用率：80.9%
 - 完美可用率（100%）：44 个
 - 高可用率（80%-99%）：19 个
 - 中等可用率（50%-79%）：1 个
@@ -220,8 +220,8 @@ https://api.example.workers.dev/?config=1&encode=base58
 | ✅ | 🎬虎牙资源 | https://www.huyaapi.com/api.php/provide/vod/at/json | 98 | 2 | 98.0% | 0 |
 | ✅ | 🎬豆瓣资源 | https://caiji.dbzy5.com/api.php/provide/vod | 97 | 3 | 97.0% | 0 |
 | ✅ | 🔞奥斯卡 | https://aosikazy.com/api.php/provide/vod | 94 | 6 | 94.0% | 0 |
-| ✅ | 🔞玉兔资源 | https://apiyutu.com/api.php/provide/vod | 93 | 7 | 93.0% | 0 |
-| ✅ | 🔞老色逼 | https://apilsbzy1.com/api.php/provide/vod | 93 | 7 | 93.0% | 0 |
+| ✅ | 🔞玉兔资源 | https://apiyutu.com/api.php/provide/vod | 94 | 6 | 94.0% | 0 |
+| ✅ | 🔞老色逼 | https://apilsbzy1.com/api.php/provide/vod | 94 | 6 | 94.0% | 0 |
 | ✅ | 🔞鲨鱼资源 | https://shayuapi.com/api.php/provide/vod | 91 | 9 | 91.0% | 0 |
 | ✅ | 🔞大地资源 | https://dadiapi.com/feifei2 | 89 | 11 | 89.0% | 0 |
 | ✅ | 🔞黄色仓库 | https://hsckzy.xyz/api.php/provide/vod | 88 | 12 | 88.0% | 0 |
